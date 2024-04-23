@@ -5,7 +5,7 @@ pipeline{
         stage('SCM Chechout'){
             steps{
                 retry(3){
-                    git branch: 'main', url: 'https://github.com/VishSeran/4222DevOpsAss02.git'
+                    git branch: 'main', url: 'https://github.com/VishSeran/4222DevOpsAss02'
                 }
             }
         }
